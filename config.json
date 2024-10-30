@@ -1,0 +1,26 @@
+{
+  "badge_folder": "Badge_output",
+  "badge_front_prefix": "badge_front_",
+  "badge_back_prefix": "badge_back_",
+  "output_pdf": "print/badge_output.pdf",
+  "presets": {
+    "ExamplePreset": {
+      "front": {
+        "name_char_limit": 12,
+        "background_img": "bg/FBG.jpg",
+        "font_name": "font/OpenSans-Bold.ttf",
+        "photo_position": [80, 490],
+        "name_position": [85, 90],
+        "name_size": 64,
+        "name_color": "#FFFFFF"
+      },
+      "back": {
+        "background_img": "bg/BBG.jpg",
+        "font_name": "font/OpenSans-Bold.ttf",
+        "name_position": [80, 100],
+        "name_size": 64,
+        "name_color": "#000000"
+      }
+    }
+  }
+}
